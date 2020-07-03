@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.app__header {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.charts__container {
+  display: inline-block;
+  width: 400px;
+  box-shadow: 2px 0 4px #ccc;
+}
+
+.chart__item {
+  width: 350px;
+  position: relative;
+  margin: 2rem 1rem;
+}
+
+.moveable-origin,
+.moveable-line {
+  visibility: hidden;
+}
+
+.moveable-control-box:hover .moveable-line {
+  visibility: visible;
+}
