@@ -17,5 +17,4 @@ class Main {
 }
 
 let app = new Main();
-window.addEventListener("load", app.render);
-
+window.addEventListener("DOMContentLoaded", app.render);
